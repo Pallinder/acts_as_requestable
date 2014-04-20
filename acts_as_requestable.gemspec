@@ -7,11 +7,11 @@ require "acts_as_requestable/version"
 Gem::Specification.new do |s|
   s.name        = "acts_as_requestable"
   s.version     = ActsAsRequestable::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActsAsRequestable."
-  s.description = "TODO: Description of ActsAsRequestable."
+  s.authors     = ["David Pallinder"]
+  s.email       = ["davidpallinder@gmail.com"]
+  s.homepage    = "http://www.github.com/Pallinder/acts_as_requestable"
+  s.summary     = "Tiny gem to take care of approving/declining requests"
+  s.description = ""
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
