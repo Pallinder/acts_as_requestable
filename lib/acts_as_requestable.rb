@@ -26,7 +26,7 @@ module ActsAsRequestable
     # * <tt>after_accept</tt> - method to be called after request has been accepted
 
     def acts_as_requestable(options = {})
-      cattr_accessor :run_after_decline, :run_after_accept, :request_confirmed
+      cattr_accessor :run_after_decline, :run_after_accept, :request_status
 
       self.run_after_decline = options[:after_decline]
       self.run_after_accept = options[:after_accept]
